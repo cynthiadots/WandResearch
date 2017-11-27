@@ -1,3 +1,4 @@
+# Test for Git
 count=dict()
 line=raw_input(" ")
 words = line.split()
@@ -15,5 +16,3 @@ for v ,k in lis:
 	x=(k,v)
 	strlis.append(x)
 print(strlis[:10])
-
-
